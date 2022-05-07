@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inqwell</title>
+        <link rel="stylesheet" href="inqwell.css">
+        <script>
+            function openNav(){
+                var x = document.getElementById("left_nav");
+                if(x.style.display === "none"){
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+<body>
+         <!-- Top nav -->
+            <header>
+                <div class=top_nav>
+                    <div class="top_nav_space"></div>
+                    <div class=top_nav_logo><span  class="top_nav_logo_text">Inqwell</span></div>
+                    <a href="Signup.html">
+                    <div class=top_nav_signin_button>
+                      <div class="top_nav_signin_button_"></div><span  class="top_nav_signin_button_text">Sign in</span>
+                    </a>
+                    </button>
+              </div>
+            </header>
+        <!-- Left nav not expanded -->
+             <nav>
+                <div class=left_nav>
+                    <a onclick="openNac()">
+                    <div class="left_nav_menu_bt"></div>
+                    <div class=left_nav_menu>
+                      <div class="left_nav_icon_menu"></div>
+                    </div>
+                </a>
+                    <div class=left_nav_icons>
+                    <a href="Home.html">
+                      <div class=left_nav_icons_home>
+                        <div class="left_nav_icons_home_">
+                        </div>
+                    </a>
+                      </div>
+                      <div class=left_nav_icons_create>
+                        <div class="left_nav_icons_create_"></div>
+                      </div>
+                      <a href="PersonalFonts.html">
+                      <div class=left_nav_icons_fonts>
+                        <div class="left_nav_icons_fonts_"></div>
+                      </div>
+                      </a>
+                      <a href="Trash.html">
+                      <div class=left_nav_icons_trash>
+                        <div class="left_nav_icons_trash_"></div>
+                      </div>
+                      </a>
+                    </div>
+                    <a href="Login.html">
+                    <div class=left_nav_icons_signin>
+                      <div class="left_nav_icons_signin_"></div>
+                    </div>
+                    </a>
+                </div>
+            </nav>
+
+    <main>
+        <!-- Page Title -->
+        <div class=create_journal_title>
+            <span  class="create_journal_title_2">Customize your journal.</span>
+            <span  class="create_journal_title_1">Create a New Journal</span>
+        </div>
+
+        <!-- Customizable Journal -->
+        <div class=custom_journal>
+            <div class="journal_box"></div>
+            <div class="journal_container"></div><input class="journal_title_field" type="text" name="journal_title" required="required" placeholder="Enter journal title"></input>
+          </div>
+        
+        <!-- Create Journal Nav -->
+        <div class=create_journal_nav>
+            <span class="nav_info_item">Journal Info</span>
+            <span class="nav_custom_item">Journal Customization</span>
+            <div class="create_journal_nav_line1"></div>
+            <div class="create_journal_nav_line2"></div>
+          </div>
+
+        <!-- Themes -->
+        <div class=customs_container>
+            <span  class="customs_container_addimage">Add Image</span>
+            <span  class="customs_container_themes">Themes</span>
+            <div class="theme_box_1"></div>
+            <div class="theme_box_2"></div>
+            <div class="theme_box_3"></div>
+            <div class="theme_box_4"></div>
+            <span class="customs_names_customtheme">Custom Theme</span>
+            <span class="customs_names_theme2">Theme 2</span>
+            <span class="customs_names_theme3">Theme 3</span>
+            <span class="customs_names_theme4">Theme 4</span>
+            <span class="customs_names_theme5">Theme 5</span>
+            <span class="customs_names_theme6">Theme 6</span>
+            <span class="customs_names_theme7">Theme 7</span>
+            <span class="customs_names_theme8">Theme 8</span>
+            <div class="theme_box_5"></div>
+            <div class="theme_box_6"></div>
+            <div class="theme_box_7"></div>
+            <div class="theme_box_8"></div>
+            <span class="customs_edittext">Edit</span>
+              <div class="edit_icon"></div>
+            <div class="add_icon"></div>
+        </div>
+
+        <!-- Button -->
+        <button id="create_journal_button">Create Journal</button>
+
+
+    </main>
+</body>
+                   

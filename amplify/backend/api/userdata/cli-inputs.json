@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "userdata",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\dunca\\amplify-app\\amplify\\backend\\api\\userdata\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authamplifyapp4a047204"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 7,
+        "apiKeyExpirationDate": "2022-05-13T19:12:01.936Z",
+        "keyDescription": "testing"
+      }
+    ],
+    "conflictResolution": {}
+  }
+}

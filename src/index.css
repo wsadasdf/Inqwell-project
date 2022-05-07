@@ -1,0 +1,60 @@
+
+
+.mainHeader header{
+   //display: flex;
+    font-family: sans-serif, Helvetica, Arial;
+    justify-content: space-between;
+    font-size: 25px;
+    border-color: black;
+    padding: 0px;
+    border: 1px solid;
+    align-items: flex-end;
+    //align-content: center;
+    text-align: center;
+   
+ 
+}
+
+.signButton {
+    display: inline-block;
+    padding: 10px, 20px;
+    margin: 5px;
+    border: none;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: aqua;
+    color: black;
+    float: right;
+    cursor: pointer;
+    
+}
+
+.clr {
+    clear:both;
+}
+.genContainer {
+    left: 1050px;
+    top: 500px;
+    right: 550px;
+    width: 350px;
+    height: 300px;
+    border: double;
+    border-color: antiquewhite;
+    border-color: black;
+    text-align: center;
+    position: relative;
+}
+
+.genContainer h2 {
+    text-align: center;
+    top: 60px;
+    left: 78px;
+    width: 183px;
+    height: 122px;
+    background-image:url('./journal.jfif');
+    position:absolute;
+}
+.txtContainer{
+
+}

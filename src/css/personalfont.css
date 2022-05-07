@@ -1,0 +1,46 @@
+/* Download Template Tab */
+.font-instructions {
+    width: 80%;
+	height: Auto;
+	position: relative;
+	top: 10px;
+	font-family: Acumin Pro;
+	text-align:left;
+	font-size:24px;
+}
+
+ol {
+    line-height: 150%;
+    margin-left: 35px;
+}
+
+.font-instructions-button {
+    border-radius: 30px;
+    background: #BBD8E5;
+    float: left;
+    padding: 10px 22px;
+    color: #333333;
+    outline: none;
+    border: 1px solid #333333;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.font-instructions-button:hover {
+    transition: all 0.2s ease-in-out;
+    background: #333333;
+    color: #FFFFFF;
+}
+
+/* Upload Template Tab */
+.before-template {
+    width: 80%;
+	height: Auto;
+	position: relative;
+	top: 10px;
+	font-family: Acumin Pro;
+	text-align:left;
+	font-size:24px;
+}

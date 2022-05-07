@@ -1,0 +1,861 @@
+.MainFrame {
+	position: relative;
+	width: 80%;
+	left: 10%;
+	top: 24.5%;
+	height: 500px;
+	margin-top: 4%;
+	background: #FFFFFF;
+}
+.MainFrameBill {
+	position: relative;
+    width: 80%;
+    left: 10%;
+    top: 24.5%;
+    height: 500px;
+    margin-top: 0%;
+    background: #FFFFFF;
+}
+
+.MainFrameSub {
+	position: relative;
+    width: 80%;
+    left: 10%;
+    top: 24.5%;
+    height: 500px;
+    margin-top: 0%;
+    background: #FFFFFF;
+}
+.MainFrameAn {
+	position: relative;
+    width: 80%;
+    left: 10%;
+    top: 24.5%;
+    height: 500px;
+    margin-top: 0%;
+    background: #FFFFFF;
+}
+.ProfilePicFrame {
+	position: absolute;
+	left: 1%;
+	width: 220px;
+	height: 220px;
+	top: 1%;
+	border-radius: 50%;
+	border: 2px dashed;
+	border-color: #C3D0D9;
+	background: #F2F1F0;
+}
+
+.chooseAPhoto {
+	position: relative;
+	width: 100%;
+	height: 38px;
+	left: 0%;
+	right: 0%;
+	top: 65%;
+	font-family: Lasiver;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 60%;
+	text-align: center;
+	text-decoration-line: underline;
+	color: #292F33;
+}
+
+.DragAndDrop {
+	position: absolute;
+	height: 38px;
+	left: 0%;
+	right: 0%;
+	top: 70%;
+	font-family: Lasiver;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 60%;
+	text-align: center;
+	text-decoration-line: underline;
+	color: #737A80;
+}
+
+.FirstName {
+	position: relative;
+	min-width: 200px;
+	width: 20%;
+	height: 44px;
+	margin-left: 1%;
+	top: 20%;
+	border-radius: 2px;
+}
+
+.FirstName_input[type="text"] {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	border-radius: 2px;
+	font-family: Tuppence;
+	font-size: 18px;
+}
+
+.LastName {
+	position: relative;
+    min-width: 200px;
+    width: 20%;
+    height: 44px;
+    margin-left: 58%;
+    top: 10.9%;
+}
+
+.LastName_input[type="text"] {
+	width: 100%;
+	height: 100%;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Tuppence;
+	font-size: 18px;
+}
+
+.ProfilePageEmail {
+	position: relative;
+    min-width: 200px;
+    width: 20%;
+    height: 44px;
+    margin-left: 1%;
+    top: 24%;
+}
+
+.ProfilePageEmail_input[type="text"] {
+	width: 100%;
+	height: 100%;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Tuppence;
+	font-size: 18px;
+}
+
+.ProfilePagePhoneNum {
+	position: relative;
+    min-width: 200px;
+    width: 30%;
+    height: 44px;
+    margin-left: 58%;
+    top: 15%;
+}
+
+.ProfilePagePhoneNum_input[type="tel"] {
+	width: 101%;
+	height: 100%;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Tuppence;
+	font-size: 18px;
+}
+
+.ProfilePageEmailText {
+	position: absolute;
+	width: 15%;
+	min-width: 62px;
+	height: 14px;
+	margin-left: 1%;
+	top: -22%;
+	font-family: Acumin Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 1.62px;
+	text-transform: uppercase;
+	color: #292F33;
+}
+
+.ProfilePagePhoneText {
+	position: absolute;
+	width: 64%;
+	min-width: 98px;
+	height: 14px;
+	margin-left: 1%;
+	top: -22%;
+	font-family: Acumin Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 1.62px;
+	text-transform: uppercase;
+	color: #292F33;
+}
+
+.ProfilePageLastNameText {
+	position: relative;
+	width: 15%;
+	min-width: 98px;
+	height: 14px;
+	margin-left: 1%;
+	top: 18%;
+	font-family: Acumin Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 1.62px;
+	text-transform: uppercase;
+	color: #292F33;
+}
+
+.ProfilePageFirstNameText {
+	position: relative;
+	width: 15%;
+	min-width: 98px;
+	height: 14px;
+	margin-left: 1%;
+	top: 18%;
+	font-family: Acumin Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 1.62px;
+	text-transform: uppercase;
+	color: #292F33;
+}
+
+.ProfilePageDateBirthText {
+	position: relative;
+    min-width: 125px;
+    width: 25%;
+    height: 20px;
+    margin-left: 1%;
+    top: 0%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Acumin Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 1.62px;
+    text-transform: uppercase;
+    color: #292F33;
+}
+
+.ProfilePageDay {
+	position: relative;
+    width: 66px;
+    height: 44px;
+    margin-left: 1%;
+    top: 10%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.ProfilePageDayBill {
+	position: relative;
+    width: 51px;
+    height: 44px;
+    margin-left: 0%;
+    top: -89%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.ProfilePageDay_input[type="text"] {
+	width: 51px;
+    height: 44px;
+    left: 250px;
+    top: 303px;
+    background: #FBFBFB;
+    border: 1px solid #CCCACA;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Tuppence;
+    font-size: 18px;
+}
+
+.ProfilePageMonth {
+	position: relative;
+    width: 66px;
+    height: 44px;
+    margin-left: 14.6%;
+    top: -35.4%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.ProfilePageMonthBill {
+	position: relative;
+    width: 94px;
+    height: 44px;
+    margin-left: 21.6%;
+    top: -175.4%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.ProfilePageMonth_input[type="text"] {
+	width: 93px;
+    height: 44px;
+    left: 320px;
+    top: 303px;
+    background: #FBFBFB;
+    border: 1px solid #CCCACA;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Tuppence;
+    font-size: 18px;
+}
+
+.ProfilePageYear {
+	position: relative;
+    width: 120px;
+    height: 44px;
+    margin-left: 32.6%;
+    top: -80.4%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.ProfilePageYearCard {
+	position: relative;
+    width: 120px;
+    height: 44px;
+    margin-left: 57.6%;
+    top: -263%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.ProfilePageYear_input[type="text"] {
+	width: 120px;
+	height: 44px;
+	left: 390px;
+	top: 303px;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Tuppence;
+	font-size: 18px;
+}
+.ProfilePageYearCard_input[type="text"] {
+	width: 120px;
+	height: 44px;
+	left: 390px;
+	top: 303px;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Tuppence;
+	font-size: 18px;
+}
+
+.TextFieldsFrame {
+	position: relative;
+	padding: 1%;
+	width: 100%;
+	height: 500px;
+	margin-top: 0%;
+	background: #FFFFFF;
+}
+
+.FrameToHoldAllTF {
+	margin-left: 30%;
+	width: 70%;
+	height: 100%;
+	background: #FFFFFF;
+	max-width: 600px;
+}
+
+.DateBox {
+	position: relative;
+	top: 20.7%;
+    width: 100%;
+    height: 20%;
+    background: #FFFFFF;
+    max-width: 600px;
+}
+.DateBoxBill {
+	position: relative;
+    margin-left: 60%;
+    top: 6.7%;
+    width: 40%;
+    height: 50px;
+    background: #FFFFFF;
+    max-width: 600px;
+}
+.FrameToHoldAllTFBill {
+	margin-left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+
+.FirstNameBill
+{
+	position: relative;
+	min-width: 200px;
+	width: 40%;
+	height: 44px;
+	margin-left: 1%;
+	top: 20%;
+	border-radius: 2px;
+}
+.FirstNameBill_input[type="text"]
+{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	border-radius: 2px;
+	font-family: Tuppence;
+	font-size: 18px;
+}
+.ProfilePageFirstNameBillText {
+	position: relative;
+	width: 15%;
+	min-width: 98px;
+	height: 14px;
+	margin-left: 1%;
+	top: 18%;
+	font-family: Acumin Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 1.62px;
+	text-transform: uppercase;
+	color: #292F33;
+}
+.ProfilePageNameOnCardText
+{
+	position: relative;
+    min-width: 200px;
+	width: 40%;
+	height: 44px;
+    margin-left: 60%;
+    top: 11%;
+}
+.ProfilePageNameOnCardText_input[type="number"]
+{
+	width: 100%;
+	height: 100%;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Tuppence;
+	font-size: 18px;
+}
+
+.ProfilePageAddress
+{
+	position: relative;
+    min-width: 200px;
+    width: 40%;
+    height: 44px;
+    margin-left: 1%;
+    top: 21%;
+}
+
+.ProfilePageAddress_input[type="text"]
+{
+	
+	width: 100%;
+	height: 100%;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Tuppence;
+	font-size: 18px;
+}
+
+.ProfilePageAddress2
+{
+	position: relative;
+    min-width: 200px;
+    width: 40%;
+    height: 44px;
+    margin-left: 1%;
+    top: 26%;
+}
+
+.ProfilePageAddress2_input[type="text"]
+{
+	width: 100%;
+    height: 100%;
+    background: #FBFBFB;
+    border: 1px solid #CCCACA;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Tuppence;
+    font-size: 18px;
+}
+
+.ProfilePageCardNum
+{
+	position: relative;
+    min-width: 200px;
+	width: 40%;
+    height: 44px;
+    margin-left: 60%;
+    top: 2.8%;
+}
+
+.ProfilePageCardNum_input[type="number"]
+{
+	width: 100%;
+	height: 100%;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Tuppence;
+	font-size: 18px;
+}
+
+.ProfilePageAddressText
+{
+	position: absolute;
+	width: 300px;
+	height: 44px;
+	left: 119px;
+	top: 160px;
+
+	font-family: Acumin Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	/* identical to box height */
+
+	letter-spacing: 1.62px;
+	text-transform: uppercase;
+
+	color: #292F33;
+}
+.ProfilePageAddress2Text
+{
+	position: absolute;
+	width: 300px;
+	height: 44px;
+	left: 119px;
+	top: 268px;
+
+	font-family: Acumin Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	/* identical to box height */
+
+	letter-spacing: 1.62px;
+	text-transform: uppercase;
+
+	color: #292F33;
+}
+.ProfilePageCardNumberText
+{
+	position: absolute;
+	width: 300px;
+	height: 44px;
+	left: 460px;
+	top: 160px;
+
+	font-family: Acumin Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	/* identical to box height */
+
+	letter-spacing: 1.62px;
+	text-transform: uppercase;
+
+	color: #292F33;
+}
+
+.ProfilePageFullNameText
+{
+	position: absolute;
+	width: 300px;
+	height: 44px;
+	left: 119px;
+	top: 55px;
+
+	font-family: Acumin Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	/* identical to box height */
+
+	letter-spacing: 1.62px;
+	text-transform: uppercase;
+
+	color: #292F33;
+}
+.ProfilePageBillingAddress
+{
+	position: absolute;
+	width: 300px;
+	height: 44px;
+	left: 119px;
+	top: -10px;
+
+	font-family: Acumin Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 16px;
+	/* identical to box height */
+
+	letter-spacing: 1.62px;
+	text-transform: uppercase;
+
+	color: #292F33;
+}
+.ProfilePageCVVText
+{
+	position: relative;
+    min-width: 1px;
+    width: 10%;
+    height: 20px;
+    margin-left: 1%;
+    top: 0%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Acumin Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 1.62px;
+    text-transform: uppercase;
+    color: #292F33;
+}
+
+.ProfilePageExDateText
+{
+	position: relative;
+    min-width: 99px;
+    width: 25%;
+    height: 20px;
+    margin-left: 21%;
+    top: -38%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Acumin Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 1.62px;
+    text-transform: uppercase;
+    color: #292F33;
+}
+
+.ProfilePageExYearText
+{
+	position: relative;
+    min-width: 83px;
+    width: 25%;
+    height: 15px;
+    margin-left: 57%;
+    top: -78%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Acumin Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 1.62px;
+    text-transform: uppercase;
+    color: #292F33;
+}
+
+.ProfilePageCVV
+{
+	position: absolute;
+	width: 70px;
+	height: 44px;
+	left: 458px;
+	top: 303px;
+
+	background: #FBFBFB; 
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.ProfilePageCVV input[type="number"]
+{
+	width: 70px;
+	height: 44px;
+	background: #FBFBFB; 
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family:Tuppence;
+    font-size: 18px;
+}
+
+.ProfilePageCardMonth
+{
+	position: absolute;
+	width: 103px;
+	height: 44px;
+	left: 538px;
+	top: 303px;
+
+	background: #FBFBFB; 
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+.ProfilePageCardMonth input[type="text"]
+{
+	width: 103px;
+	height: 44px;
+	background: #FBFBFB; 
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family:Tuppence;
+    font-size: 18px;
+}
+
+.ProfilePageCardYear
+{
+	position: absolute;
+	width: 103px;
+	height: 44px;
+	left: 650px;
+	top: 303px;
+
+	background: #FBFBFB; 
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+.ProfilePageCardYear input[type="text"]
+{
+	
+	width: 103px;
+	height: 44px;
+	background: #FBFBFB; 
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family:Tuppence;
+    font-size: 18px;
+}
+
+.ProfilePageAddress2text {
+	position: absolute;
+	width: 15%;
+	min-width: 62px;
+	height: 14px;
+	margin-left: 1%;
+	top: -22%;
+	font-family: Acumin Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 1.62px;
+	text-transform: uppercase;
+	color: #292F33;
+}
+.ProfilePageAddresstext {
+	position: absolute;
+	width: 15%;
+	min-width: 62px;
+	height: 14px;
+	margin-left: 1%;
+	top: -22%;
+	font-family: Acumin Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 1.62px;
+	text-transform: uppercase;
+	color: #292F33;
+}
+
+
+.BoxSubsDet
+{
+	width: 70%;
+    height: 100%;
+    margin-left: 14%;
+    padding: 25px;
+    box-shadow: 0 0 0 0.5rem rgb(69 69 69);
+    border-radius: 12px;
+}
+
+.BoxSubsFree
+{
+	width: 100%;
+    height: 33%;
+    margin-top: 15%;
+    padding: 25px;
+    box-shadow: 0 0 0 0.25rem rgb(69 69 69);
+    border-radius: 12px;
+}
+
+.BoxSubsPaid
+{
+	width: 100%;
+    height: 33%;
+    margin-top: 4%;
+    padding: 25px;
+    box-shadow: 0 0 0 0.25rem rgb(69 69 69);
+    border-radius: 12px;
+}
+.MessageSubTop
+{
+	height: 6%;
+    font-family: Tuppence;
+    font-size: 30px;
+    text-align: left;
+}
+.MessageSubFree
+{
+	height: 100%;
+    font-family: Tuppence;
+    font-size: 30px;
+    text-align: left;
+}
+.MessageSubPaid
+{
+	height: 100%;
+    font-family: Tuppence;
+    font-size: 30px;
+    text-align: left;
+}
+.MessageAnTop
+{
+	height: 30%;
+    font-family: Tuppence;
+    font-size: 40px;
+    text-align: left;
+}
+.MessageAnSub
+{
+	height: 20%;
+    font-family: Tuppence;
+    font-size: 20px;
+    text-align: left;
+}

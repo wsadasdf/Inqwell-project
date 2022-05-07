@@ -1,0 +1,217 @@
+/* Title */
+.page-title{
+    padding-top: 30px;
+    float: center;
+}
+
+.createjournal, .createjournalcustoms  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/* Create Journal Container */
+.createjournal-container, .createjournalcustoms-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 3rem 2rem; */
+    padding-left: 70px;
+}
+
+/* Tabs */
+.JournalTabs, .JournalCustomTabs {
+    justify-content: flex-end;
+    width: 90%;
+    height: auto;
+    min-height: 400px;
+    /* margin: 2.5rem auto 0.5rem; */
+    padding: 2rem 1rem;
+    color: #333333;
+    @media (max-width: 769px) {
+        padding: 2rem 0;
+    }
+}
+
+/* Tab Navigation */
+ul.second-nav  {
+    width: 80%;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333333;
+    padding-left: 0px;
+    @media (max-width: 768px) {
+      width: 90%;
+    }
+  }
+  
+  ul.second-nav li {
+    width: 70%;
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+   
+  ul.second-nav li:hover {
+    color: #BBD8E5;
+    border-bottom: 2px solid #333333;
+  }
+   
+  ul.second-nav li.active {
+    font-weight: bold;
+    border-bottom: 2px solid #333333;
+  }
+   
+  /* Tab Content Styles */
+  .TabContent {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+/* Journal Visual */
+.journal-visual{
+    display: flex;
+    margin-top: 50px;
+    width: 50%;
+    height: 475px;
+    border-radius: 7px;
+    justify-content: flex-start;
+    border: 1px solid #333333;
+}
+
+.journal-visual-binding{
+    background-color: #333333;
+    width: 80px;
+    height: 475px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.journal-visual-title-box {
+    margin: 3.5rem auto 1.5rem;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #c7c7c7;
+    height: 40px;
+}
+
+/* Journal Customs */
+.journal-customs-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.create-journal-title{
+    margin-left: 175px;
+    margin-right: 175px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.journal-customs-title{
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.journal-customs-theme-container {
+    margin-left: 175px;
+    margin-right: 175px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.theme-box {
+    width: 105px;
+    height: 75px;
+    transition: all 0.5s;
+}
+
+.custom-theme-box {
+    width: 105px;
+    height: 75px;
+    transition: all 0.5s;
+    border: 1px solid #333333;
+    border-radius: 7px;
+}
+
+.theme-box img {
+    border: 1px solid #333333;
+    border-radius: 7px;
+}
+
+.theme-box div:hover {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.journal-customs-theme-container p {
+    font-size: 12px;
+    width: 100px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.journal-customs-color-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.journal-customs-header-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s;
+}
+
+.cover-color-box {
+    width: 100px;
+    height: 70px;
+    border: 1px solid #333333;
+    border-radius: 7px;
+    transition: all 0.5s;
+}
+
+.header-box {
+    width: 300px;
+    height: 80px;
+    transition: all 0.5s;
+    border: 1px solid #333333;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}

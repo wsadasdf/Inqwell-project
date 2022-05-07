@@ -1,0 +1,153 @@
+.createjournalentrypage { 
+	background-color:rgba(255, 255, 255, 1);
+	width:100%;
+	height:100%;
+	position:absolute;
+    display: flex; 
+    /* justify-content: space-around; */
+    /* background-color:rgba(248.0000004172325, 249.00000035762787, 250.00000029802322, 1);
+	width:1360px;
+	height:948px;
+	position:absolute;
+	left:80px;
+	top:80px; */
+}
+.background { 
+	background-color:rgb(240, 240, 240);
+	width:150%;
+	height:135%;
+	position:relative;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.page { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(255, 255, 255, 1);
+	/* width:954px; This deals with the width of the text editor*/
+	height:100%;
+	/* margin:auto; */
+}
+
+/* 
+
+  CSS for the Text Editor
+
+*/
+.wrapper-class {
+	/* padding: 0px; */
+	/* padding: 1rem; */
+	border: px solid #ccc;
+  }
+.editor-class {
+	/* background-color: #ccc; */
+	/* padding-left: 20%;
+	padding-right: 20%; */
+
+	padding: 1rem; 
+	padding: 0px;
+	border: 1px solid #ccc;
+}
+.toolbar-class {
+border: 1px solid #ccc;
+}
+
+
+.entry-title { 
+	color:rgba(0, 0, 0, 1);
+	width:72px;
+	height:29px;
+	position:absolute;
+	left:644px;
+	top:260px;
+	font-family:Acumin Pro;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.date
+ { 
+	color:rgba(0, 0, 0, 1);
+	width:62px;
+	height:17px;
+	position:absolute;
+	left:1059px;
+	top:177px;
+	font-family:Lasiver;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.top-menu { 
+	background-color:rgba(255, 255, 255, 1);
+	width:100%;
+	height: 59px;
+	position:absolute;
+	border:1px solid rgba(216.8367326259613, 216.8367326259613, 216.8367326259613, 1);
+    padding-top: 1%;
+}
+.customize-container { 
+	width:125px;
+	height:26px;
+	position:absolute;
+	right:18px;
+	top:18px;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 13px;
+    padding-right:13px;
+}
+.customize-container:hover{
+    color:#BBD8E5;
+}
+.customizer-icon-container { 
+	width:27px;
+	height:27px;
+	position:absolute;
+	right:0px;
+}
+/* top dropdown menu */
+#top_menu,
+#top_menu ul {
+    list-style: none;
+}
+#top_menu {
+    float: left;
+}
+#top_menu > li {
+    float: left;
+}
+#top_menu li a {
+	display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1em;
+    text-decoration: none;
+	color:black;
+	text-align: left;
+    display: flex;
+}
+#top_menu ul {
+    position: absolute;
+    display: none;
+	z-index: 999;
+}
+#top_menu ul li a {
+    width: 100px;
+}
+#top_menu li:hover ul {
+    display: block;
+	background-color: white;
+}
+.e2_3144 { 
+	color:rgba(41.00000135600567, 47.0000009983778, 51.00000075995922, 1);
+	width:66px;
+	height:14px;
+	position:absolute;
+	left:153px;
+	top:90px;
+	font-family:Acumin Pro;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}

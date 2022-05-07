@@ -1,0 +1,188 @@
+.WelcomeMessage {
+	position: absolute;
+	width: 118px;
+	height: 23px;
+	left: 40%;
+	top: 10%;
+	font-family: Lasiver;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	text-align: center;
+	color: #737A80;
+}
+
+.SigninSgin {
+	position: absolute;
+	width: 120px;
+	height: 52px;
+	left: 40%;
+	top: 15%;
+	font-family: Tuppence;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 52px;
+	text-align: center;
+	color: #332929;
+}
+
+.InputMessage {
+	position: absolute;
+	width: 41px;
+	height: 23px;
+	left: 439px;
+	top: 279px;
+	font-family: Lasiver;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	color: #292F33;
+}
+
+.PasswordInputMessage {
+	position: absolute;
+	width: 41px;
+	height: 23px;
+	left: 439px;
+	top: 279px;
+	font-family: Lasiver;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	color: #292F33;
+}
+
+.PopUpShadow {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(51, 51, 51, 0.6);
+}
+
+.SigninPopUP {
+	position: relative;
+	width: 72%;
+	height: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	max-width: 800px;
+	background: #FFE5DA;
+}
+
+.SignInButton_ {
+	background-color: #333333;
+	width: 170px;
+	height: 48px;
+	position: absolute;
+	left: 38%;
+	top: 70%;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border: 1px solid rgb(51, 51, 51);
+}
+
+.SignInButton_Text {
+	color: #FFFFFF;
+	width: 53px;
+	height: 18px;
+	position: relative;
+	left: 0%;
+	top: 13px;
+	font-family: Tuppence;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0;
+}
+
+.InfoInputEmail {
+	position: relative;
+	width: 40%;
+	height: 44px;
+	left: 32%;
+	top: 30%;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.InfoInputEmail_input[type="text"] {
+	width: 100%;
+	height: 44px;
+	left: 32%;
+	top: 30%;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Tuppence;
+	font-size: 18px;
+}
+
+.InfoInputPassword {
+	position: relative;
+	width: 40%;
+	height: 44px;
+	left: 32%;
+	top: 33%;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.InfoInputPassword_input[type="password"] {
+	width: 100%;
+	height: 44px;
+	left: 32%;
+	top: 33%;
+	font-family: Tuppence;
+	background: #FBFBFB;
+	border: 1px solid #CCCACA;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-size: 18px;
+}
+.InfoInputPassword_input[type="text"] {
+	width: 100%;
+    height: 44px;
+    left: 32%;
+    top: 33%;
+    font-family: Tuppence;
+    background: #FBFBFB;
+    border: 1px solid #CCCACA;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+
+.closingIcon {
+	position: relative;
+	border: none;
+	left: 97%;
+	background: #FFE5DA;
+	width: 2px;
+	height: 2px;
+}
+
+a :hover {
+	color: gray;
+}
+
+.Eyes {
+	position: absolute;
+    border: none;
+    top: 16%;
+    left: 90%;
+    background: #FFE5DA;
+    width: 2px;
+    height: 2px;
+}
